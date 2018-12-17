@@ -126,7 +126,7 @@
     relative "^3.0.2"
     resolve-from "^4.0.0"
 
-"@patternfly/react-tokens@^1.0.0":
+"@patternfly/react-tokens@^1.0.0", "@patternfly/react-tokens@^1.9.2":
   version "1.9.2"
   resolved "https://registry.yarnpkg.com/@patternfly/react-tokens/-/react-tokens-1.9.2.tgz#84ffbdcd8f6b1925280eb5c4b95c4b63ac199fb0"
   integrity sha512-7Um2B7ZAwX52FlqCsv2NI+pztQKYhj42IJjq1MzqHspr86NhDfdVKWN4Gc0ceeE5pbJEvJlt0WM4gfS7JMSr+Q==

@@ -5,6 +5,8 @@
   "dependencies": {
     "@patternfly/patternfly-next": "^1.0.104",
     "@patternfly/react-core": "~1.38.6",
+    "@patternfly/react-styles": "^2.3.0",
+    "@patternfly/react-tokens": "^1.9.2",
     "react": "^16.6.3",
     "react-dom": "^16.6.3",
     "react-scripts-ts": "3.1.0"
@@ -13,7 +15,8 @@
     "start": "react-scripts-ts start",
     "build": "react-scripts-ts build",
     "test": "react-scripts-ts test --env=jsdom",
-    "eject": "react-scripts-ts eject"
+    "eject": "react-scripts-ts eject",
+    "deploy": "surge build/ rheb-pf4-react-hello.surge.sh"
   },
   "devDependencies": {
     "@types/jest": "^23.3.10",
