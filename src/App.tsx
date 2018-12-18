@@ -152,7 +152,7 @@ class App extends React.Component<{}, IState> {
       [BackgroundImageSrc.xl]: bgImageSrcXl,
       [BackgroundImageSrc.xs]: bgImageSrcXs,
       [BackgroundImageSrc.xs2x]: bgImageSrcXs2x,
-      [BackgroundImageSrc.filter]: bgImageSrcFilter
+      [BackgroundImageSrc.filter]: bgImageSrcFilter + "#image_overlay"
     };
 
     const Header = (
